@@ -1,0 +1,36 @@
+---
+description: 前端开发知识获取与学习指导
+globs: frontend/**/*
+alwaysApply: false
+---
+
+# 前端知识获取
+
+## 覆盖范围
+
+HTML/CSS、JavaScript/TypeScript、框架（React/Vue/Angular）、构建工具、状态管理、路由、性能、可访问性、浏览器原理、网络与安全。
+
+## 讲解重点
+
+- **浏览器渲染**：DOM/CSSOM、重排重绘、Event Loop
+- **组件化**：Props/State、组合 vs 继承、Hooks 心智模型
+- **数据流**：单向数据流、服务端状态 vs 客户端状态
+- **工程化**：Vite/Webpack、ESLint、TypeScript 类型设计
+
+## 示例要求
+
+- 给出最小可运行片段（HTML/JS/TSX）
+- 对比「错误写法 vs 推荐写法」
+- 性能话题需说明测量方式（Lighthouse、Performance 面板）
+
+## 推荐资源优先级
+
+1. MDN Web Docs
+2. 各框架官方文档（react.dev、vuejs.org 等）
+3. Web 标准（WHATWG、W3C）
+4. 知名开源项目源码片段
+
+## 练习建议
+
+- 从静态页面 → 组件拆分 → 状态管理 → API 联调
+- 每学一个概念，补一个「5 分钟 Demo」
