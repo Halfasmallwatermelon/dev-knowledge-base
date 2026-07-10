@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 贡献指南
+    url: https://github.com/Halfasmallwatermelon/dev-knowledge-base/blob/main/CONTRIBUTING.md
+    about: 了解如何提交 Issue 与 Pull Request

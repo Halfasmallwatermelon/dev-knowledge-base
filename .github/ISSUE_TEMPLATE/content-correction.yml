@@ -1,0 +1,38 @@
+name: 内容修正
+description: 报告笔记中的错误、过时信息或链接失效
+title: "[修正] "
+labels: ["documentation", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量提供可复现的信息，便于快速修正。
+
+  - type: input
+    id: location
+    attributes:
+      label: 文件路径 / 章节
+      description: 例如 `database/README.md` 或某篇笔记的第 2 节
+      placeholder: frontend/react-hooks.md — useEffect 依赖数组
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 当前内容有什么问题？
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望内容（可选）
+      description: 你认为应如何表述，或应替换为什么链接
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 参考依据（可选）
+      description: 官方文档、RFC、规范等链接

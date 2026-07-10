@@ -1,0 +1,53 @@
+name: 笔记建议
+description: 建议新增某主题的学习笔记或学习路线
+title: "[建议] "
+labels: ["documentation", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎提出新主题建议！维护者会评估是否与仓库定位一致。
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 所属领域
+      options:
+        - frontend
+        - backend
+        - database
+        - deployment
+        - testing
+        - general
+    validations:
+      required: true
+
+  - type: input
+    id: topic
+    attributes:
+      label: 建议主题
+      placeholder: 例如 MySQL 慢查询分析与 EXPLAIN
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 为什么需要这篇笔记？
+      description: 解决什么学习痛点、面向什么读者
+    validations:
+      required: true
+
+  - type: textarea
+    id: outline
+    attributes:
+      label: 建议大纲（可选）
+      description: 你希望笔记包含哪些章节或示例
+
+  - type: checkboxes
+    id: willing
+    attributes:
+      label: 参与意愿
+      options:
+        - label: 我愿意自行撰写并提交 PR
+        - label: 我可以协助 Review 相关 PR

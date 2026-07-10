@@ -11,9 +11,9 @@ description: 获取、讲解与沉淀测试知识（单元/集成/E2E、TDD、Mo
 2. 遵循 `.cursor/rules/testing-learning.mdc`
 3. 落盘时用 `write-learning-note` 模板
 
-## 讲解顺序
+## 讲解顺序（零基础）
 
-测什么 → 测哪一层 → 怎么写 → 怎么 Mock → 怎么进 CI
+「自动检查代码对不对」类比 → 测什么 → 测哪一层 → **带注释示例** → 逐步讲解 → Mock → CI
 
 ## 测试金字塔（默认比例）
 

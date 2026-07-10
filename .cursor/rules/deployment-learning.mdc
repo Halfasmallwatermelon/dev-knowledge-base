@@ -17,9 +17,16 @@ Linux 基础、Docker/K8s、CI/CD、Nginx/反向代理、HTTPS、环境变量与
 - **流水线**：构建 → 测试 → 镜像 → 部署 → 回滚
 - **可观测性**：Metrics、Logs、Traces 三板斧
 
+## 零基础讲解要求
+
+- 先讲「把你的程序放到别人也能访问的服务器上」，再讲 Docker/K8s
+- 命令逐条注释；说明在哪个目录执行、成功时长什么样
+- 端口、域名、证书等概念首次出现用人话解释
+
 ## 示例要求
 
-- 提供 Dockerfile、docker-compose、GitHub Actions 等可复用片段
+- 提供 Dockerfile、docker-compose、GitHub Actions 等可复用片段，**带注释**
+- 每个配置块下方说明「这一行是干什么的」
 - 说明端口、域名、证书、防火墙等 checklist
 - 部署失败时给出排查顺序（日志 → 健康检查 → 网络 → 权限）
 
