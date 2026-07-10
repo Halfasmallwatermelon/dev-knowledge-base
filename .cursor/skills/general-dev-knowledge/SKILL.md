@@ -5,6 +5,11 @@ description: 获取与沉淀通用开发知识（Git、命令行、HTTP、设计
 
 # 通用开发知识技能
 
+## 零基础讲解
+
+- 工具链概念先用人话：Git 像「带时光机的存档」、HTTP 像「浏览器和后端的对话规则」
+- 命令示例带注释，说明每条命令做什么、在什么目录执行
+
 ## 触发后动作
 
 1. Read `general/` 已有笔记
@@ -23,12 +28,12 @@ description: 获取与沉淀通用开发知识（Git、命令行、HTTP、设计
 ## Git 命令备忘
 
 ```bash
-git status
-git diff
-git log --oneline -10
-git switch -c feature/xxx
-git add -p
-git commit -m "type(scope): message"
+git status          # 查看哪些文件被修改了
+git diff            # 查看具体改了什么内容
+git log --oneline -10  # 查看最近 10 条提交记录（简短格式）
+git switch -c feature/xxx  # 创建并切换到新分支 feature/xxx
+git add -p          # 交互式选择要暂存的部分改动
+git commit -m "type(scope): message"  # 提交暂存的改动并写说明
 ```
 
 ## 权威资源

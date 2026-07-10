@@ -17,10 +17,16 @@ alwaysApply: false
 - **Mock 边界**：何时 Mock 外部服务，何时用 Testcontainers
 - **CI 集成**：测试在流水线中的门禁策略
 
+## 零基础讲解要求
+
+- 先讲「测试 = 自动检查代码是否按预期工作」，再讲测试分层
+- Arrange-Act-Assert 用「准备 → 操作 → 检查结果」解释
+- Mock 用「替身演员」类比，说明为什么需要假的外部服务
+
 ## 示例要求
 
-- 给出 Arrange-Act-Assert 结构示例
-- 对比「脆弱测试 vs 稳定测试」
+- 给出 Arrange-Act-Assert 结构示例，**每段带注释**
+- 对比「脆弱测试 vs 稳定测试」，解释新手容易写错的地方
 - 说明 flaky test 的常见原因与修复
 
 ## 推荐资源优先级

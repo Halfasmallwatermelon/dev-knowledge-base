@@ -5,18 +5,17 @@ description: 获取、讲解与沉淀前端开发知识（HTML/CSS/JS/TS、React
 
 # 前端知识技能
 
+## 讲解顺序（零基础）
+
+生活类比 → 概念 → 浏览器/框架行为 → **带注释的代码** → 逐步讲解 → 调试方法
+
 ## 触发后动作
 
 1. Read `frontend/` 已有笔记，做增量补充
 2. 遵循 `.cursor/rules/frontend-learning.mdc` 重点
 3. 需要落盘时用 `write-learning-note` 技能与模板
 
-## 讲解顺序
-
-概念 → 浏览器/框架行为 → 代码示例 → 调试方法 → 性能/安全注意点
-
 ## 必含元素（按主题选用）
-
 - **渲染链路**：HTML 解析 → DOM → CSSOM → 布局 → 绘制
 - **JS 运行时**：Call Stack、Task/Microtask、async/await
 - **框架**：组件模型、状态更新、副作用边界（如 useEffect）

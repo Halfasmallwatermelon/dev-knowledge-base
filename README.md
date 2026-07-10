@@ -50,12 +50,14 @@
 
 ## 贡献
 
-欢迎 Issue 与 Pull Request：
+欢迎 Issue 与 Pull Request，详见 [贡献指南](CONTRIBUTING.md)。
 
 - 修正错误、补充示例、完善链接
 - 新增笔记请遵循上述结构与「由浅入深、可验证」原则
 - 引用请优先官方文档与标准规范
 
-## 许可证
+参与社区请遵守 [行为准则](CODE_OF_CONDUCT.md)。
 
-本项目采用 [MIT License](LICENSE) 开源。
+## 开源协议
+
+本项目采用 [MIT License](LICENSE) 开源，可自由使用、修改与分发，使用时请保留版权声明。
