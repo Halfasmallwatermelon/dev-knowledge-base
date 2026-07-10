@@ -1,0 +1,36 @@
+---
+description: 部署与运维知识获取与学习指导
+globs: deployment/**/*
+alwaysApply: false
+---
+
+# 部署知识获取
+
+## 覆盖范围
+
+Linux 基础、Docker/K8s、CI/CD、Nginx/反向代理、HTTPS、环境变量与配置、日志监控、云厂商、Serverless、蓝绿/金丝雀发布。
+
+## 讲解重点
+
+- **环境分层**：dev / staging / prod 差异与配置管理
+- **容器化**：镜像分层、多阶段构建、健康检查
+- **流水线**：构建 → 测试 → 镜像 → 部署 → 回滚
+- **可观测性**：Metrics、Logs、Traces 三板斧
+
+## 示例要求
+
+- 提供 Dockerfile、docker-compose、GitHub Actions 等可复用片段
+- 说明端口、域名、证书、防火墙等 checklist
+- 部署失败时给出排查顺序（日志 → 健康检查 → 网络 → 权限）
+
+## 推荐资源优先级
+
+1. Docker / Kubernetes 官方文档
+2. 云平台文档（AWS、阿里云、腾讯云等）
+3. Nginx、Let's Encrypt 官方指南
+4. OpenTelemetry、Prometheus 文档
+
+## 练习建议
+
+- 本地 Docker 跑通 → CI 自动构建 → 云主机/容器平台部署
+- 为每个服务写「部署清单 + 回滚步骤」

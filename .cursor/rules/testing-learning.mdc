@@ -1,0 +1,35 @@
+---
+description: 测试知识获取与学习指导
+globs: testing/**/*
+alwaysApply: false
+---
+
+# 测试知识获取
+
+## 覆盖范围
+
+单元测试、集成测试、E2E、TDD/BDD、Mock/Stub、测试金字塔、覆盖率、性能测试、契约测试、测试数据管理。
+
+## 讲解重点
+
+- **测试分层**：什么该单元测、什么该集成测、什么该 E2E
+- **可测性设计**：依赖注入、纯函数、避免硬编码时间/随机数
+- **Mock 边界**：何时 Mock 外部服务，何时用 Testcontainers
+- **CI 集成**：测试在流水线中的门禁策略
+
+## 示例要求
+
+- 给出 Arrange-Act-Assert 结构示例
+- 对比「脆弱测试 vs 稳定测试」
+- 说明 flaky test 的常见原因与修复
+
+## 推荐资源优先级
+
+1. 各语言测试框架官方文档（Jest、pytest、JUnit 等）
+2. Playwright / Cypress E2E 文档
+3. Google Testing Blog、Martin Fowler 测试相关文章
+
+## 练习建议
+
+- 为核心业务函数补单元测试 → API 集成测试 → 关键路径 E2E
+- 建立「回归用例库」，每次修 Bug 先写失败测试
