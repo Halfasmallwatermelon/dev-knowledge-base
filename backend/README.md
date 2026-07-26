@@ -13,4 +13,10 @@ API 设计、业务架构、认证授权、中间件、消息队列、微服务�
 | [csharp/](csharp/) | C# / .NET | ASP.NET Core、EF Core、JWT、缓存、后台任务 |
 | [rust/](rust/) | Rust | Axum、Actix Web |
 
+## API 技术
+
+| 目录 | 说明 |
+|------|------|
+| [graphql/](graphql/) | GraphQL 查询语言、Apollo Server、Schema 设计 |
+
 语言无关的通用主题（REST 设计、认证模式、微服务架构等）可直接放在本目录下。
